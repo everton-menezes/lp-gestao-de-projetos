@@ -1,0 +1,161 @@
+html {
+    font-family: "Manrope", sans-serif;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+}
+
+button {
+    background-color: #F84646;
+    color: #ffffff;
+    font-weight: 500;
+    padding: 1.5rem 2.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    width: 282;
+    height: 70;
+    opacity: 90%;
+    box-shadow: 0.2rem 0.2rem 0.5rem rgb(128, 0, 0);
+}
+
+h1 {
+    font-family: "Manrope";
+    font-weight: 800;
+    font-size: 4rem;
+    letter-spacing: 0%;
+    margin: 0;
+}
+
+h2 {
+    font-family: "Manrope";
+    font-weight: 800;
+    font-size: 3rem;
+    letter-spacing: 0px;
+    margin: 0;
+}
+
+p {
+    font-family: "Manrope";
+    font-weight: 400;
+    font-size: 1.25rem;
+    letter-spacing: 0.2px;
+}
+
+#presentationContainer {
+    padding: 2.5rem 7.5rem;
+    height: 80vh;
+    background-image: url(./image/hero-background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#presentation {
+    position: relative;
+    width: 37.5rem;
+}
+
+#quality {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+#quality > img {
+    margin: 0 2.5rem;
+}
+
+.container {
+    padding: 5rem 7.5rem;
+    text-align: center;
+}
+
+.container > h2 {
+    margin-top: 0.5rem;
+}
+
+.container > p {
+    margin-top: 1.5rem;
+}
+
+.container > button {
+    margin-top: 2rem;
+    transition: opacity 0.5s ease-in-out, transform 0.5s 0.2s;
+}
+
+.container > button:hover {
+    opacity: 100%;
+    transform: scale(1.05);
+}
+
+.backgroundGradient {
+    background: linear-gradient(180deg, #ffffff, #d9d9d9);
+}
+
+.backgroundRed {
+    background-color: #F84646;
+    color: white;
+}
+
+.articleContainer {
+    display: flex;
+}
+
+.articleContainer:nth-child(even) {
+    flex-direction: row-reverse;
+    margin-top: 5rem;
+}
+
+.articleDetail {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: flex-start;
+    margin: 0 3rem 0 0;
+    justify-content: space-between;
+}
+
+.articleDetail > button {
+    font-size: 1rem;
+}
+
+.articleContainer:nth-child(even) > .articleDetail {
+    margin: 0 0 0 3rem;
+}
+
+#footerList {
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+}
+
+#footerList > ul > li {
+    list-style: none;
+    margin-bottom: 0.8rem;
+}
+
+#footerList > ul > li:last-child {
+    margin-bottom: 0;
+}
+
+#footerList > ul > li:first-child {
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+}
+
+#footerCopy {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8rem;
+    align-items: center;
+}
